@@ -16,5 +16,9 @@ Keyboard Controls: Easily control the game using simple arrow keys on your keybo
 Ensure you have Python 3.x installed on your system.
 
 run the game by opening main.exe
+
+
 ![1](https://github.com/a-p7/2048-using-pygame/assets/140906554/249ab417-3092-49b9-9609-2d6fa72a400e)
+
+
 ![2](https://github.com/a-p7/2048-using-pygame/assets/140906554/ceba2ec5-b2d0-4fd4-a7ab-9be152e3d051)
