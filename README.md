@@ -12,8 +12,7 @@ Winning and Losing: Challenge yourself to reach the 2048 tile to win the game. H
 
 Smooth Animations: Enjoy smooth animations that visualize tile movements and merging actions, making the gameplay more dynamic and engaging.
 
-Keyboard Controls: Easily control the game using simple arrow keys on your keyboard, allowing for intuitive tile movements.
-Ensure you have Python 3.x installed on your system.
+
 
 run the game by opening main.exe
 
