@@ -2,7 +2,6 @@ import pygame
 import game_logic
 import game_graphics
 
-# Define constants here
 GRID_SIZE = 4
 CELL_SIZE = 100
 MARGIN = 10
@@ -17,14 +16,12 @@ def main():
     icon_image = pygame.image.load('icon.png')
     pygame.display.set_icon(icon_image)
 
-    # Create the initial grid
     grid = [[0] * GRID_SIZE for _ in range(GRID_SIZE)]
 
-    # Initialize game state
-    game_graphics.draw_grid(grid, win)  # Draw the initial grid
+    game_graphics.draw_grid(grid, win) 
     game_logic.add_new_tile(grid)
     game_logic.add_new_tile(grid)
-    game_graphics.draw_grid(grid, win)  # Draw the updated grid
+    game_graphics.draw_grid(grid, win)  
 
     running = True
     while running:
@@ -45,7 +42,7 @@ def main():
 
                 if changed:
                     game_logic.add_new_tile(grid)
-                    game_graphics.draw_grid(grid, win)  # Draw the updated grid
+                    game_graphics.draw_grid(grid, win)  
 
                 state = game_logic.get_current_state(grid)
                 if state == 'WON':
