@@ -3,15 +3,6 @@
 
 2048 Game in Python with Pygame
 This repository contains a Python implementation of the popular puzzle game "2048" using the Pygame library for graphics and user interaction. The game offers a familiar 4x4 grid where players strategically combine tiles to achieve the coveted 2048 tile value.
-Key Features
-Engaging Gameplay: Experience the addictive gameplay of the classic 2048 game, where you slide tiles across the grid to merge them and increase their values.
-
-Colorful Visuals: The game's visual appeal is enhanced by vibrant and customizable tile colors based on their values, providing a visually pleasing and interactive experience.
-
-Winning and Losing: Challenge yourself to reach the 2048 tile to win the game. However, beware of running out of moves; the game will end if you can't merge any more tiles.
-
-Smooth Animations: Enjoy smooth animations that visualize tile movements and merging actions, making the gameplay more dynamic and engaging.
-
 
 
 run the game by opening main.exe
